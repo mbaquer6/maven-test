@@ -8,8 +8,8 @@
       <url>http://www.gitghub.com</url>
       <connection>scm:git:git@github.com:mbaquer6/maven-test.git/</connection>
       <developerConnection>scm:git:git@github.com:mbaquer6/maven-test.git</developerConnection>
-     <tag>HEAD</tag>
-  </scm>
+      <tag>HEAD</tag>
+   </scm>
    <distributionManagement>
       <repository>
          <id>Core-API-Java-Release</id>
