@@ -2,7 +2,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>bus-core-api</groupId>
    <artifactId>bus-core-api</artifactId>
-   <version>1.15-SNAPSHOT</version>
+   <version>1.15</version>
    <packaging>jar</packaging> 
    <scm>
       <url>http://www.gitghub.com</url>
