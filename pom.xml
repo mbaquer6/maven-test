@@ -42,14 +42,4 @@
          </plugin>
       </plugins>
    </build>
-
-   <settings>
-      <servers>
-         <server>
-            <id>nexus</id>
-            <username>deployment</username>
-            <password>12345678</password>
-         </server>
-      </servers>
-</settings>
 </project>
