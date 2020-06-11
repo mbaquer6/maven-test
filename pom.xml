@@ -2,13 +2,13 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>bus-core-api</groupId>
    <artifactId>bus-core-api</artifactId>
-   <version>1.17</version>
+   <version>1.18-SNAPSHOT</version>
    <packaging>jar</packaging> 
    <scm>
       <url>http://www.gitghub.com</url>
       <connection>scm:git:git@github.com:mbaquer6/maven-test.git/</connection>
       <developerConnection>scm:git:git@github.com:mbaquer6/maven-test.git</developerConnection>
-      <tag>bus-core-api-1.17</tag>
+      <tag>bus-core-api-1.15</tag>
    </scm>
    <distributionManagement>
       <repository>
