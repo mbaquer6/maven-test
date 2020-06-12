@@ -12,9 +12,9 @@
    </scm>
    <distributionManagement>
       <repository>
-         <id>Core-API-Java-Release</id>
-         <name>Release repository</name>
-         <url>file://tmp</url>
+         <id>nexus</id>
+         <name>Nexus Staging Repo</name>
+         <url>http://192.168.5.136:8081/repository/maven-snapshots/</url>
       </repository>
    </distributionManagement>
    <build>
