@@ -2,7 +2,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>bus-core-api</groupId>
    <artifactId>bus-core-api</artifactId>
-   <version>1.30-SNAPSHOT</version>
+   <version>1.31-SNAPSHOT</version>
    <packaging>jar</packaging> 
    <scm>
       <url>http://www.gitghub.com</url>
@@ -15,7 +15,7 @@
       <repository>
          <id>nexus</id>
          <name>Nexus Staging Repo</name>
-         <url>http://192.168.5.173:8081/repository/maven-releases/</url>
+         <url>http://nexus:8081/repository/maven-releases/</url>
       </repository>
    </distributionManagement>
    <build>
