@@ -16,11 +16,11 @@
          <name>Releases</name>
          <url>http://nexus:8081/repository/maven-releases/</url>
       </repository>
-            <repository>
+      <snapshotRepository>
          <id>nexus</id>
          <name>Snapshots</name>
          <url>http://nexus:8081/repository/maven-snapshots/</url>
-      </repository>
+      </snapshotRepository>
    </distributionManagement>
    <build>
       <plugins>
