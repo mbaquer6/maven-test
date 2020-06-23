@@ -8,13 +8,13 @@
       <url>http://www.gitghub.com</url>
       <connection>scm:git:git@github.com:mbaquer6/maven-test.git/</connection>
       <developerConnection>scm:git:git@github.com:mbaquer6/maven-test.git</developerConnection>
-     <tag>bus-core-api-1.36.2</tag>
-  </scm>
+      <tag>bus-core-api-1.36.2</tag>
+   </scm>
    <distributionManagement>
       <repository>
          <id>nexus</id>
          <name>Nexus Staging Repo</name>
-         <url>http://nexus:8081/repository/maven-release/</url>
+         <url>http://nexus:8081/repository/maven-releases/</url>
       </repository>
    </distributionManagement>
    <build>
