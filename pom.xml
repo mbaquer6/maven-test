@@ -2,21 +2,25 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>bus-core-api</groupId>
    <artifactId>bus-core-api</artifactId>
-   <version>1.33-SNAPSHOT</version>
+   <version>2.0.4-SNAPSHOT</version>
    <packaging>jar</packaging> 
    <scm>
       <url>http://www.gitghub.com</url>
       <connection>scm:git:git@github.com:mbaquer6/maven-test.git/</connection>
       <developerConnection>scm:git:git@github.com:mbaquer6/maven-test.git</developerConnection>
-      <!-- <tag>bus-core-api-1.15</tag> --> 
-      <tag>bus-core-api-1.27</tag>
+      <tag>bus-core-api-1.36.2</tag>
    </scm>
    <distributionManagement>
       <repository>
          <id>nexus</id>
-         <name>Nexus Staging Repo</name>
+         <name>Releases</name>
          <url>http://nexus:8081/repository/maven-releases/</url>
       </repository>
+      <snapshotRepository>
+         <id>nexus</id>
+         <name>Snapshots</name>
+         <url>http://nexus:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
    </distributionManagement>
    <build>
       <plugins>
