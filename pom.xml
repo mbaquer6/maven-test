@@ -13,8 +13,13 @@
    <distributionManagement>
       <repository>
          <id>nexus</id>
-         <name>Nexus Staging Repo</name>
+         <name>Releases</name>
          <url>http://nexus:8081/repository/maven-releases/</url>
+      </repository>
+            <repository>
+         <id>nexus</id>
+         <name>Snapshots</name>
+         <url>http://nexus:8081/repository/maven-snapshots/</url>
       </repository>
    </distributionManagement>
    <build>
